@@ -11,18 +11,19 @@ a simple app to hit the NY Times Most Popular Articles API and show a list of mo
 This app follows the BLoC Architecture, which is a specialized implementation of the Clean Architecture principle.
 
 Bloc allows us to structure the application into three distinct layers:
-1- Presentation Layer
+
+### 1- Presentation Layer
 - Handle UI components and user interactions.
 - Use Flutter widgets along with bloc widgets for state management.
 - Ensure UI remains separate from Business logic.
 
-2- Business Logic Layer
+### 2- Business Logic Layer
 - Acts as a mediator between the UI and the Data Layer.
 - Ensures that the UI does not directly interact with data sources.
 
-3- Data Layer
+### 3- Data Layer
 - Responsible for fetching and managing data.
-### Code Flow
+## Code Flow
 <img src = "https://github.com/user-attachments/assets/96ddf1da-e512-4fb8-8e9f-4bb506bcaa92">
 
 1. User click on button making event (start talking to Bloc by event)
