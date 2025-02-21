@@ -2,7 +2,7 @@ import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:nyt_app/core/network/network_exceptions.dart';
 import 'package:nyt_app/data/models/article.dart';
-import 'package:nyt_app/data/repositories/articles_repo_imp.dart';
+import 'package:nyt_app/data/repositories/articles_repo.dart';
 
 part 'articles_state.dart';
 
