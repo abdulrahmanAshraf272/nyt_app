@@ -33,3 +33,16 @@ Bloc allows us to structure the application into three distinct layers:
 5. Web services (Data) send data to Repository (Data)
 6. Repository send data to Bloc
 7. Bloc send state to presentation 
+
+# Dependencies
+- build_runner
+- dio
+- envied
+- envied_generator
+- flutter_bloc
+- flutter_screenutil
+- freezed
+- freezed_annotation
+- get_it
+- json_annotation
+- json_serializable
